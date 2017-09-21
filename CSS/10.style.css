@@ -1,0 +1,73 @@
+#table,
+#table1 {
+    width: 900px;
+    height: 400px;
+    background: #c0c0c0;
+}
+
+table {
+    width: 80%;
+    height: 80%;
+    margin-left: 10%;
+    background: #eee;
+}
+
+#table table {
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+caption {
+    font-size: 28px;
+    font-weight: 900；
+}
+
+.title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #0ff;
+    background: #98f5ff;
+}
+
+#table1 table {
+    border-spacing: 20px 10px;
+}
+
+.one {
+    background: #c9c9c9;
+}
+
+.two {
+    background: #aeeeee;
+}
+
+div {
+    width: 900px;
+    height: 300px;
+    background: #98f5ff;
+}
+
+form {
+    padding-top: 20px;
+    text-align: center;
+}
+
+input {
+    width: 300px;
+    height: 20px;
+    border: 1px solid #000;
+    background-color: transparent;
+    border-width: 0 0 1px 0;
+}
+
+.submit {
+    width: 76px;
+    height: 31px;
+    border: 0;
+    line-height: 31px;
+    background: url(../images/beijing.jpg) no-repeat;
+    background-size: 76px;
+}

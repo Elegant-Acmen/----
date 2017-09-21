@@ -1,0 +1,191 @@
+div {
+    width: 900px;
+    height: 300px;
+    text-align: center;
+}
+
+select {
+    width: 300px;
+    height: 30px;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.cl2 {
+    background: #cd6600;
+}
+
+.cl3 {
+    background: #eec900;
+}
+
+.cl4 {
+    background: #eeee00;
+}
+
+.cl5 {
+    background: #ee6363;
+}
+
+.cl6 {
+    background: #eed2ee;
+}
+
+#ppp {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    background: #ff0000;
+    margin: 20px 0 0 50px;
+    padding: 20px 20px 20px 20px;
+}
+
+a {
+    display: block;
+    width: 900px;
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
+}
+
+.a2 {
+    text-decoration: none;
+}
+
+.a3:link {
+    color: #ffed00;
+    text-decoration: none;
+}
+
+.a3:hover {
+    color: #ff00aa;
+    text-decoration: underline;
+}
+
+.a3:active {
+    color: #00aaaa;
+    text-decoration: none;
+}
+
+.a3 :visited {
+    color: #eeaa00;
+}
+
+table {
+    width: 600px;
+    font-size: 18px;
+    border: 0px;
+    border-collapse: collapse;
+    text-align: center;
+    margin-left: 200px;
+}
+
+tr:hover {
+    background: #ffee00;
+}
+
+td {
+    border: 1px solid #000;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+#diva,
+#divb {
+    width: 900px;
+    height: 53px;
+}
+
+#diva a:link,
+#diva a:visited {
+    display: block;
+    float: left;
+    width: 146px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px;
+    text-decoration: none;
+    color: #ffed00;
+    background: #89bbff;
+    border-top: 2px solid #eee;
+    border-left: 2px solid #eee;
+    border-bottom: 2px solid #777;
+    border-right: 2px solid #777;
+}
+
+#diva a:hover {
+    color: #ffed00;
+    background: #3d8fff;
+    text-decoration: none;
+    border-top: 2px solid #777;
+    border-left: 2px solid #777;
+    border-bottom: 2px solid #eee;
+    border-right: 2px solid #eee;
+}
+
+#divb a:link,
+#divb a:visited {
+    display: block;
+    float: left;
+    width: 146px;
+    height: 53px;
+    text-align: center;
+    line-height: 53px;
+    text-decoration: none;
+    color: #fff;
+    background-image: url(../images/menubg.jpg);
+    background-size: 146px;
+}
+
+#divb a:hover {
+    color: #ccc;
+    background-image: url(../images/menubg.jpg);
+    background-position: 0px -55px;
+    text-decoration: none;
+    background-size: 146px;
+}
+
+#divb .help:hover {
+    cursor: help;
+}
+
+#divb .move:hover {
+    cursor: move;
+}
+
+#divb .wait:hover {
+    cursor: wait;
+}
+
+#divb .text:hover {
+    cursor: text;
+}
+
+#divb .progress:hover {
+    cursor: progress;
+}
+
+ul {
+    width: 300px;
+    margin-left: 200px;
+    font-size: 34px;
+}
+
+.one {
+    list-style-type: circle;
+}
+
+.two {
+    list-style-type: none;
+}
+
+.three {
+    list-style-type: square;
+}
+
+.four {
+    list-style-type: decimal;
+}

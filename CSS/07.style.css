@@ -1,0 +1,62 @@
+/*字符间距*/
+
+.one1 {
+    letter-spacing: 30px;
+}
+
+.two1 {
+    letter-spacing: 10px;
+}
+
+
+/*自动折行*/
+
+.one2 {
+    white-space: nowrap;
+}
+
+
+/*首行缩进*/
+
+.one3,
+.two3 {
+    text-indent: 32px;
+}
+
+
+/*水平对齐*/
+
+.one4 {
+    text-align: center;
+}
+
+.two4 {
+    text-align: right；
+}
+
+
+/*垂直对齐*/
+
+table {
+    width: 900px;
+    height: 150px;
+}
+
+td {
+    border: 1px;
+}
+
+.one5 {
+    vertical-align: top;
+}
+
+.two5 {
+    vertical-align: bottom;
+}
+
+
+/*图片属性*/
+
+img {
+    width: 60%;
+}

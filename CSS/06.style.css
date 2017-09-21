@@ -1,0 +1,139 @@
+li {
+    list-style: none;
+    color: #66f;
+    text-align: center;
+    font-size: 30px;
+}
+
+.one {
+    font-size: 50px;
+}
+
+.two {
+    font-style: italic;
+}
+
+.size {
+    color: #66cdaa;
+    font-size: 40px;
+}
+
+#one {
+    color: #bababa;
+    font-size: 50px;
+}
+
+.one,
+.size {
+    font-size: 20px;
+    color: #00f5ff;
+}
+
+p span {
+    font-size: 20px;
+    color: #00f5ff;
+}
+
+div>span {
+    font-size: 20px;
+    color: #00f5ff;
+}
+
+.study>li {
+    color: gold;
+    /*只给物理和数学有黄色*/
+}
+
+.study li {
+    color: darksalmon;
+    /*给物理 力学 声学 电磁学 和数学 微积分 概率论
+博弈论都加一个颜色*/
+}
+
+h2,
+h3,
+#one,
+#two,
+p,
+h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+h2,
+h3 {
+    font-size: italic;
+}
+
+#one,
+#two {
+    font-family: "隶书"；
+}
+
+#one {
+    color: #ff0000;
+}
+
+#two {
+    text-decoration: underline;
+}
+
+
+/*伪类*/
+
+a {
+    font-size: 80px;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:link {
+    color: #000000;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:active {
+    color: #ffff00;
+}
+
+a::visited {
+    color: #00f5ff !important;
+}
+
+.bing {
+    font-size: 30px;
+}
+
+.bai {
+    font-size: 60px;
+}
+
+#border {
+    margin-left: 250px;
+    width: 300px;
+    border-top: 3px solid #f03;
+    border-right: 1px dotted #d5a;
+    border-bottom: 8px dotted #c3b;
+    border-left: 11px double #ad3;
+    border-bottom-width: 15px;
+    outline: 10px solid #faa;
+}
+
+img {
+    margin-left: 300px;
+    border: 6px double #333;
+    outline: 10px solid #222;
+}
+
+.miao {
+    font-size: 30px;
+}
+
+.miao p {
+    font-size: 2em;
+    font-weight: bold;
+}

@@ -1,0 +1,44 @@
+#main-1,
+#main-2,
+#main-3 {
+    width: 1000px;
+    height: 1400px;
+    position: relative;
+}
+
+.img {
+    width: 1000px;
+    height: 600px;
+    -webkit-box-reflect: below -1px linear-gradient(to bottom, hsla(0, 100%, 100%, 0), hsla(0, 100%, 100%, 1));
+}
+
+#main-t {
+    width: 1000px;
+    height: 600px;
+    background: #c0c0c0;
+    position: absolute;
+    top: 0px;
+    opacity: 0.3;
+}
+
+p {
+    color: #ff0;
+    font-size: 100px;
+    text-align: center;
+    line-height: 120px;
+    margin-top: 400px;
+    font-family: "楷体";
+    font-weight: 800;
+    background: #f00;
+    opacity: 0.5;
+    -webkit-box-reflect: below 200px linear-gradient(to bottom, hsla(0, 100%, 100%, 0), hsla(0, 100%, 100%, 0.7));
+}
+
+#main-2 {
+    zoom: 0.5;
+}
+
+#main-3 p {
+    -webkit-text-fill-color: red;
+    -webkit-text-stroke-width: 2px;
+}

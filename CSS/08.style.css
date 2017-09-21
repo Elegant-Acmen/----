@@ -1,0 +1,161 @@
+body {
+    background-color: #cacaca;
+}
+
+h1 {
+    line-height: 45px;
+}
+
+#div1,
+#div2,
+#div4,
+#div4-1,
+#div4-2,
+#div4-3 {
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    padding-top: 20px;
+    margin-left: 200px;
+    margin-bottom: 20px;
+}
+
+#div1 {
+    background-color: #ff3;
+}
+
+#div1 span {
+    background-color: #ff0000;
+}
+
+#div2 {
+    background-image: url(../images/beijing.jpg);
+}
+
+#div3-1 {
+    background-image: url(../images/true.jpg);
+    background-repeat: repeat;
+}
+
+#div3-2 {
+    background-image: url(../images/true.jpg);
+    background-repeat: no-repeat;
+}
+
+#div3-3 {
+    background-image: url(../images/true.jpg);
+    background-repeat: repeat-x;
+}
+
+#div3-4 {
+    height: 300px;
+    background-image: url(../images/true.jpg);
+    background-repeat: repeat-y;
+}
+
+#div4 {
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    /*指定图片不平铺*/
+    background-position: -40px -40px;
+    /*指定图片分别沿x\y方向移动-40px*/
+}
+
+#div4-1 {
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+}
+
+#div4-2 {
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    /*指定图片不平铺*/
+    background-position: 40px 40px;
+    /*指定图片分别沿x\y方向移动40px*/
+}
+
+#div4-3 {
+    width: 600px;
+    height: 300px;
+    background-color: #ffff00;
+    background-image: url(../images/img4.jpg);
+    background-repeat: no-repeat;
+    background-position: center right;
+}
+
+#div4-4 {
+    width: 180px;
+    text-align: center;
+    margin-left: 200px;
+}
+
+.xb {
+    width: 180px;
+    list-style: none;
+    border: 1px solid #b51600;
+    padding: 0;
+}
+
+.xb li {
+    height: 52px;
+    width: 180px;
+    background-color: #ffdead;
+    border-bottom: 1px solid #911001;
+    border-top: 1px solid #c11e08;
+}
+
+.xb li a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 52px;
+    font-size: 18px;
+    display: block;
+    float: left;
+    margin-left: 20px;
+}
+
+s {
+    width: 40px;
+    height: 40px;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    background-image: url(../images/150.png);
+    background-repeat: no-repeat;
+}
+
+#s1 s {
+    background-position: -130px -60px;
+}
+
+#s2 s {
+    background-position: -50px -220px;
+}
+
+#s3 s {
+    background-position: -50px -300px;
+}
+
+#s4 s {
+    background-position: -130px -540px;
+}
+
+#s5 s {
+    background-position: -450px -540px;
+}
+
+#s6 s {
+    background-position: -450px -300px;
+}
+
+#s7 s {
+    background-position: -770px -300px;
+}
+
+#s8 s {
+    background-position: -770px -460px;
+}
+
+#s9 s {
+    background-position: -1170px -300px;
+}

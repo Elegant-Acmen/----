@@ -1,0 +1,102 @@
+body {
+    background: #c0c0c0;
+}
+
+#main1 {
+    width: 600px;
+    height: 500px;
+    background: #faa;
+}
+
+#one1 {
+    width: 500px;
+    height: 400px;
+    background: #2f2;
+}
+
+#two1 {
+    width: 300px;
+    height: 200px;
+    background: #3dc;
+}
+
+.two-1 {
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.two-2 {
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}
+
+.one1-2 {
+    position: relative;
+}
+
+#main1-1 {
+    width: 1000px;
+    height: 50px;
+    background: #bcf;
+    position: fixed;
+    bottom: 160px;
+}
+
+img {
+    width: 900px;
+    height: 600px;
+}
+
+.clip {
+    position: absolute;
+    clip: rect(30px 700px 300px 200px);
+}
+
+.z-index {
+    margin-top: 320px;
+}
+
+.img1 {
+    position: absolute;
+    z-index: -1;
+}
+
+.p1,
+.p2 {
+    line-height: 800px;
+    width: 900px;
+    height: 600px;
+    color: #fa2;
+    text-align: center;
+    font-size: 92px;
+    font-weight: bold;
+    font-family: 楷体;
+}
+
+.p1 {
+    background: red;
+    opacity: 0.2;
+}
+
+#bg {
+    width: 900px;
+    height: 600px;
+    background: #c0c0c0;
+    opacity: 0.6;
+    position: absolute;
+    z-index: 0;
+}
+
+#bg .p2 {
+    width: 900px;
+    height: 100px;
+    color: #fff;
+    background: #f00;
+    opacity: 0.5;
+    top: 300px;
+    position: absolute;
+    z-index: 1;
+    line-height: 80px;
+}

@@ -1,0 +1,180 @@
+#main1,
+#main2,
+#main3,
+#main4 {
+    width: 1100px;
+    height: 700px;
+}
+
+#main1 div {
+    border: 1px solid #000;
+    width: 300px;
+    height: 200px;
+    margin: 10px 10px;
+    float: left;
+    background: #c0c0c0;
+}
+
+#angle1 {
+    border-radius: 50px;
+}
+
+#angle2 {
+    border-radius: 50px 100px;
+}
+
+#angle3 {
+    border-radius: 50px 100px 100px;
+}
+
+#angle4 {
+    border-radius: 50px 100px 100px 50px;
+}
+
+#angle5 {
+    border-radius: 10%;
+}
+
+#angle6 {
+    border-radius: 20%;
+}
+
+#main #angle7 {
+    height: 300px;
+    border-radius: 50%;
+}
+
+#angle8 {
+    border-radius: 50%;
+}
+
+#main2 div {
+    width: 200px;
+    height: 150px;
+    border: 1px solid #999;
+    margin: 50px;
+    float: left;
+}
+
+#shadow1 {
+    box-shadow: -10px 0px #666;
+}
+
+#shadow2 {
+    box-shadow: 0px 10px #666;
+}
+
+#shadow3 {
+    box-shadow: 10px 10px #666;
+}
+
+#shadow4 {
+    box-shadow: 10px 10px 10px #666;
+}
+
+#shadow5 {
+    box-shadow: 10px 10px 10px 10px #666;
+}
+
+#shadow6 {
+    box-shadow: 10px 10px 10px 5px #666;
+}
+
+#shadow7 {
+    box-shadow: 10px 10px 10px 0px #666 inset;
+}
+
+#shadow8 {
+    box-shadow: 0px 0px 3px #666;
+}
+
+#shadow9:hover {
+    box-shadow: 0px 0px 3px #999;
+}
+
+#main3 div {
+    width: 200px;
+    height: 200px;
+    border: 3px dashed #000;
+    float: left;
+    margin: 10px;
+    background: url(../images/login.gif) no-repeat;
+}
+
+#main3 #bgsiz1 {
+    background-size: 200px;
+}
+
+#main3 #bgsiz2 {
+    background-size: 70%;
+}
+
+#main3 #bgsiz3 {
+    background-size: 200px 100px;
+}
+
+#main3 #bgsiz4 {
+    background-size: cover;
+    width: 300px;
+}
+
+#main3 #bgsiz5 {
+    background-size: contain;
+    width: 300px;
+}
+
+#LG-1 {
+    width: 800px;
+    height: 50px;
+    margin: 30px;
+    background: linear-gradient(to right, #f00, orange, yellow, green, blue, skyblue, purple);
+}
+
+#LG-2 {
+    width: 800px;
+    height: 300px;
+    margin: 30px;
+    background: linear-gradient(120deg, #f00, orange, yellow, green, blue, skyblue, purple);
+}
+
+#LG-3 {
+    width: 800px;
+    height: 300px;
+    margin: 30px;
+    background: repeating-linear-gradient(to right, #f00, yellow 10%, skyblue 20%);
+}
+
+#LG-4 {
+    width: 800px;
+    height: 300px;
+    margin: 30px;
+    background: linear-gradient(to right, rgba(15, 135, 125, 0.2), rgba(25, 155, 0, 0.2));
+}
+
+#RG-1 {
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, #ff0, #fe0, #f00);
+    margin-left: 200px;
+    margin-top: 30px;
+}
+
+#RG-2 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff0, #fe0 30%, #f00);
+    margin-left: 200px;
+    margin-top: 30px;
+    box-shadow: 3px 3px gold;
+}
+
+#RG-3 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #ff0, #fe0 30%, #f00);
+    margin-left: 200px;
+    margin-top: 30px;
+    box-shadow: 3px 3px gold;
+}

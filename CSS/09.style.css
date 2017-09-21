@@ -1,0 +1,51 @@
+#float {
+    width: 900px;
+    height: 600px;
+    background: #c0c0c0;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+.div1,
+.div2,
+.div3,
+.div4 {
+    width: 280px;
+    height: 150px;
+}
+
+.div1 {
+    background: red;
+}
+
+.div2 {
+    background: #ffff00;
+}
+
+.div3 {
+    background: #0ff00f;
+}
+
+.div4 {
+    background: #00ffff;
+}
+
+.le {
+    float: left;
+}
+
+.ri {
+    float: right;
+}
+
+.span {
+    float: left;
+    font-size: 80px;
+    color: #f00;
+    font-weight: bold;
+    font-family: 黑体;
+    width: 120px;
+}
